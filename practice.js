@@ -365,3 +365,96 @@ var myName= "umair"
 //  console.log(checkObject("name"));
 
 //Accesing nested arrays
+
+// var myArray =[
+//    {
+//       "name": "Umair",
+//       "fName": "ahmad",
+//       bothers: [
+//          "Shoaib",
+//          "Ijaz",
+//          "Zubair",
+//          "Umair",
+//          "Ali",
+//       ]
+
+//    },
+//    {
+//       "office": "zootech",
+//       address:[
+//          "bazeed",
+//          "pur",
+//       ]
+//    },
+// ]
+// var otherArray = myArray[0].bothers[3];
+// console.log(otherArray);
+
+//While Loop
+
+// var whileData=[];
+// var i = 0;
+// while (i<5) {
+//    whileData.push(i);
+//    i++;
+// }
+// console.log(whileData);
+
+//for Loop
+
+// var myArray =[];
+// for(var i = 2; i < 20; i++){
+//     myArray.push(i);
+// }
+// console.log(myArray);
+//even number
+// var myArray =[];
+// for(var i = 0; i < 20; i+=2){
+//     myArray.push(i);
+// }
+// console.log(myArray);
+// //odd number
+// var myArray =[];
+// for(var i = 0; i < 20; i+=3){
+//     myArray.push(i);
+// }
+// console.log(myArray);
+
+//count backward numbers
+// var myArray =[];
+// for(var i = 30; i > 1; i-=3){
+//     myArray.push(i);
+// }
+// console.log(myArray);
+
+// var myArr=[21,3,546,6]
+// total=0;
+// for(var i=0; i<myArr.length; i++){
+//     total += myArr[i];
+// }
+// console.log(total);
+
+//ternary opertor
+// function ternoryOpertor(a, b){
+//     return a === b ? true : false ;
+//     // return a === b;
+// }
+// console.log(ternoryOpertor(12, 34));
+//multiple ternary operator
+
+// function checkAge(age){
+//     return age < 0 ? "not adult" : age > 20 ? "adult" : "kid"
+// }
+// console.log(checkAge(0));
+
+//Mutate an array declared with const
+
+// const an= [1,4,56,7]
+// function anArray (){
+//     "use strict"
+//     an[0]= 21;
+//     an[2]= 21;
+//     an[1]= 21;
+// }
+// anArray();
+// console.log(an);
