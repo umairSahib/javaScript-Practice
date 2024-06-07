@@ -256,3 +256,112 @@ var myName= "umair"
    
 // }
 // console.log(greaterEqual(1));
+
+// // Switch Statement
+// function caseSensitive(val) {
+//     var answer ="";
+//    switch(val){
+//     case 1:
+//         answer= "alpha"
+//         break;
+//     case 2:
+//         answer= "beta"
+//         break;
+//     case 3:
+//         answer= "gamma"
+//         break;
+
+//     case 4:
+//         answer= "delta"
+//         break;
+        
+//    }
+//     return answer;
+// }
+// console.log(caseSensitive(3));
+
+//default Switch  Statement
+// function caseSensitive(val) {
+//     var answer ="";
+//    switch(val){
+//     case "a":
+//         answer= "cat"
+//         break;
+//     case "b":
+//         answer= "monkey"
+//         break;
+//     case "c":
+//         answer= "donkey"
+//         break;
+//       default:
+//         answer="stuff";
+        
+//    }
+//     return answer;
+// }
+// console.log(caseSensitive("b"));
+
+//returning boolean values from function
+
+// function trueFalse(a,b){
+//     return a > b;
+// }
+// console.log(trueFalse(39, 30));
+
+//javaScript Object
+
+//  var jolly={
+//     name:"Jolly",
+//     legs: 4,
+//     color: "white",
+//  }
+//  console.log(jolly);
+//changing object values
+//  var jolly={
+//     name:"Jolly",
+//     legs: 4,
+//     color: "white",
+//  }
+//  jolly.name ="john"
+//  console.log(jolly.name);
+//Adding Object
+//  var jolly={
+//     name:"Jolly",
+//     legs: 4,
+//     color: "white",
+//  }
+//  jolly["pet"] ="john";
+//  console.log(jolly);
+
+
+//delete object
+
+//  var jolly={
+//     name:"Jolly",
+//     legs: 4,
+//     color: "white",
+//  }
+//  delete jolly.legs;
+//  console.log(jolly);
+
+
+
+//Check Proprty In object
+
+//  var jolly={
+//     name:"Jolly",
+//     legs: 4,
+//     color: "white",
+//  };
+//  function checkObject(checkProp) {
+//    if(jolly.hasOwnProperty(checkProp)){
+//       return jolly[checkProp];
+//    }
+//    else{
+//     return "not found"
+//    }
+   
+//  }
+//  console.log(checkObject("name"));
+
+//Accesing nested arrays
