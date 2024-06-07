@@ -1,3 +1,105 @@
+
+
+// var a= "Hello World";
+// console.log(a);
+
+// var number = 5;  //inline comments
+// var number = 5;  /*multiline comments*/
+
+// var myName= "uMair";
+// myName=9;
+// console.log(myName);
+
+// let ourName= "uMair";
+// const yourName= "uMair";
+
+// //declaring variable
+// var a;
+// //assiging variable
+// var n= 9;
+// var b=2;
+// b=n;
+// console.log(b);
+// //Initilizing Variables w/ Assingnment Operator
+// let my = "name";
+// //Uninitilized Variables
+// var w = 10;
+// var e = 10;
+// var q = "I am a ";
+// w= w+1;
+// e= e+1;
+// q= q+ "string";
+// console.log(w,q);
+//camelCase
+var myName= "umair"
+//Adding two numbers
+// var a= 10;
+// var b= 20;
+// var sum= a+b;
+// console.log(sum);
+
+// Subtract two numbers
+// var a= 10;
+// var b= 20;
+// var sub= a-b;
+// console.log(sub);
+
+// multiply two numbers
+// var a= 10;
+// var b= 20;
+// var multi= a*b;
+// console.log(multi);
+// Divde two numbers
+// var a= 10;
+// var b= 20;
+// var divide= a/b;
+// console.log(divide);
+
+//Concatinating string with plus operator
+
+// var allStar = "my Name is " + "khan"
+// console.log(allStar);
+// var myName= "Umair ahmad"
+// myName += " software engineer"
+// console.log(myName);
+
+//Constucting string with variable
+
+// var officeName = " Zami Digital"
+// var myOffice= " we are" + officeName + " we are hiring";
+// console.log(myOffice);
+
+//appending 
+// var officeName = " Zami Digital";
+// var officeBoy= "Azeem";
+// officeBoy += officeName;
+// console.log(officeBoy);
+
+//finding length of string
+// var myName = "Umair";
+// console.log(myName.length);
+
+// var myName = "Umair";
+// console.log(myName[3]);
+
+// var myName = "Umair";
+// console.log(myName.length-1);
+
+//Array
+// let newArray= [1,2,"mu"];
+// console.log([newArray.length]);
+
+// let newArray= [1,2,"mu"];
+// console.log([newArray[2]]);
+
+
+// var muArray = [23,34,54];
+// muArray[2]= 23;
+// console.log(muArray);
+
+
+
+
 //push add new element in array
 // let myPet=["Jolly","Johny"];
 // myPet.push("push")
@@ -144,13 +246,13 @@
 // console.log(greaterEqual(1));
 
 //If Else Statement
-function greaterEqual(val) {
-    if(val >= 20){
-        return "i am greaterthen";
-    }
-    else{
-        return "i am lesser than";
-    }
+// function greaterEqual(val) {
+//     if(val >= 20){
+//         return "i am greaterthen";
+//     }
+//     else{
+//         return "i am lesser than";
+//     }
    
-}
-console.log(greaterEqual(1));
+// }
+// console.log(greaterEqual(1));
