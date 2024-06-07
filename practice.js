@@ -144,3 +144,13 @@
 // console.log(greaterEqual(1));
 
 //If Else Statement
+function greaterEqual(val) {
+    if(val >= 20){
+        return "i am greaterthen";
+    }
+    else{
+        return "i am lesser than";
+    }
+   
+}
+console.log(greaterEqual(1));
