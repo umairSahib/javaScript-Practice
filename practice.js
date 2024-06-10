@@ -460,5 +460,97 @@ var myName= "umair"
 // console.log(an);
 
 //Arrow Function
-const concatArray = (arr1, arr2) => arr1.concat(arr2);
-console.log(concatArray([1,2,3], [4,5,6]));
+// const concatArray = (arr1, arr2) => arr1.concat(arr2);
+// console.log(concatArray([1,2,3], [4,5,6]));
+
+//paresInt Function in Js
+
+// let stringConvert = "12";
+// let number = parseInt(stringConvert);
+// console.log(number);
+
+// write higher order arrow function
+
+// const increment = (function(){
+//     return function increment(number, value=2){
+//         return value+ number;
+//     }
+// })();
+// console.log(increment(5,3));
+// console.log(increment(334));
+
+//spread operator
+
+// let arr=[1,2,3,4];
+// let arr1=[1,2,3,4];
+// let combinedArray= [...arr, ...arr1];
+// console.log(combinedArray);
+
+//use the spread operator to evalute array in-place
+
+// let arr = [12,434,56,76,454];
+// let arr3;
+// (function(){
+//  arr3= arr;
+//  arr[0]= 1234;
+// })();
+// console.log(arr3);
+
+//Object destructring 
+
+// let obj ={
+//     a: "umair",
+//     b: "Zammy",
+//     c: "can",
+// }
+// let {a,b,c}=obj;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// let {a: me, b: you, c: others }= obj;
+// console.log(me);
+// console.log(you);
+// console.log(others);
+
+//destructing nested assignment 
+
+// Nested object
+// const person = {
+//     name: 'John Doe',
+//     age: 30,
+//     address: {
+//       street: '123 Main St',
+//       city: 'Anytown',
+//       state: 'CA',
+//       zip: '12345'
+//     },
+//     contact: {
+//       phone: '555-1234',
+//       email: 'john@example.com'
+//     }
+//   };
+  
+//   // Destructuring nested objects
+//   const {
+//     name,
+//     age,
+//     address: { street, city, state, zip },
+//     contact: { phone, email }
+//   } = person;
+  
+//   console.log(name);
+//   console.log(age); 
+//   console.log(street);
+//   console.log(city); 
+//   console.log(state); 
+//   console.log(zip);
+//   console.log(phone); 
+//   console.log(email); 
+  
+// template literals
+
+let name = "umair";
+let age = 24;
+let combined= `Hello my name is ${name} and i am ${age} years old`
+console.log(combined);
