@@ -550,7 +550,33 @@ var myName= "umair"
   
 // template literals
 
-let name = "umair";
-let age = 24;
-let combined= `Hello my name is ${name} and i am ${age} years old`
-console.log(combined);
+// let name = "umair";
+// let age = 24;
+// let combined= `Hello my name is ${name} and i am ${age} years old`
+// console.log(combined);
+
+// write concise object literal declarations using simple fields
+
+// const createPerson= (name, age, gender) => ({name, age, gender})
+// console.log(createPerson("umair", 24, "male"));
+
+//use class syntax to define a constructor function
+
+// Define a class
+class Person {
+    // Constructor method
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+  
+    // Instance method
+    greet() {
+      console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+    }
+  }
+  
+  // Create an instance of the class
+  let john = new Person('umair', 30);
+  john.greet(); 
+  
