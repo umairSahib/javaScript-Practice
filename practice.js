@@ -1,6 +1,7 @@
 
 
 // var a= "Hello World";
+// var a = "umair"
 // console.log(a);
 
 // var number = 5;  //inline comments
@@ -31,13 +32,17 @@
 // q= q+ "string";
 // console.log(w,q);
 //camelCase
-var myName= "umair"
+// var myName= "umair"
 //Adding two numbers
 // var a= 10;
 // var b= 20;
 // var sum= a+b;
 // console.log(sum);
 
+// const a = 10;
+// const b = 12;
+// const sum = a+b;
+// console.log(sum);
 // Subtract two numbers
 // var a= 10;
 // var b= 20;
@@ -90,10 +95,10 @@ var myName= "umair"
 // console.log([newArray.length]);
 
 // let newArray= [1,2,"mu"];
-// console.log([newArray[2]]);
+// console.log(newArray[2]);
 
 
-// var muArray = [23,34,54];
+// const muArray = [23,34,54];
 // muArray[2]= 23;
 // console.log(muArray);
 
@@ -104,17 +109,17 @@ var myName= "umair"
 // let myPet=["Jolly","Johny"];
 // myPet.push("push")
 // console.log(myPet);
-//pop remove last elemet of array
+// pop remove last elemet of array
 // let myPet=["Jolly","Johny","jooojny"];
-// myPet.pop("pop")
+// myPet.pop()
 // console.log(myPet);
 
-//Shift remove first element of array 
+// Shift remove first element of array 
 // let myPet=["Jolly","Johny","jooojny"];
 // myPet.shift("shift")
 // console.log(myPet);
 
-//unshift add an element begining in array
+// unshift add an element begining in array
 // let myPet=["Jolly","Johny","jooojny"];
 // myPet.unshift("unshift")
 // console.log(myPet);
@@ -132,7 +137,9 @@ var myName= "umair"
 // }
 // myFunctionadd(19, 4);
 
-//Scops local scope in function
+//note
+
+// Scops local scope in function
 // function localScope() {
 //     var myScope= 5;
 //     console.log(myScope);
@@ -142,14 +149,14 @@ var myName= "umair"
 
 //Global Scope
 
-// var globalScope = "I am Global Scope";
+// const globalScope = "I am Global Scope";
 // function myScope() {
 
-//     var globalScope = "I am local Scope";
-//     return globalScope;
-    
+//     const globalScope = "I am local Scope";
+  
+//     console.log(globalScope());
 // }
-// console.log(myScope());
+
 // console.log(globalScope);
 
 //return a value from function with return
@@ -179,7 +186,7 @@ var myName= "umair"
 //     return "not equal"
     
 // }
-// console.log(testEqual(20));
+// console.log(testEqual(22));
 
 //Strict operator
 
@@ -226,7 +233,7 @@ var myName= "umair"
     
 // }
 // console.log(greaterEqual(0));
-
+//noote
 //Comparison with logical and operator
 // function greaterEqual(val) {
 //     if(val >= 20 && val <= 10){
@@ -234,7 +241,7 @@ var myName= "umair"
 //     }
 //     return "no";
 // }
-// console.log(greaterEqual(1));
+// console.log(greaterEqual(21));
 //logical or operator
 
 // function greaterEqual(val) {
@@ -353,6 +360,7 @@ var myName= "umair"
 //     legs: 4,
 //     color: "white",
 //  };
+//note
 //  function checkObject(checkProp) {
 //    if(jolly.hasOwnProperty(checkProp)){
 //       return jolly[checkProp];
@@ -391,7 +399,7 @@ var myName= "umair"
 // console.log(otherArray);
 
 //While Loop
-
+//note
 // var whileData=[];
 // var i = 0;
 // while (i<5) {
@@ -448,7 +456,7 @@ var myName= "umair"
 // console.log(checkAge(0));
 
 //Mutate an array declared with const
-
+//note
 // const an= [1,4,56,7]
 // function anArray (){
 //     "use strict"
@@ -458,7 +466,7 @@ var myName= "umair"
 // }
 // anArray();
 // console.log(an);
-
+//note
 //Arrow Function
 // const concatArray = (arr1, arr2) => arr1.concat(arr2);
 // console.log(concatArray([1,2,3], [4,5,6]));
@@ -484,7 +492,7 @@ var myName= "umair"
 // let arr=[1,2,3,4];
 // let arr1=[1,2,3,4];
 // let combinedArray= [...arr, ...arr1];
-// console.log(combinedArray);
+// console.log(...arr);
 
 //use the spread operator to evalute array in-place
 
@@ -530,7 +538,7 @@ var myName= "umair"
 //       email: 'john@example.com'
 //     }
 //   };
-  
+  //note
 //   // Destructuring nested objects
 //   const {
 //     name,
@@ -563,20 +571,39 @@ var myName= "umair"
 //use class syntax to define a constructor function
 
 // Define a class
-class Person {
-    // Constructor method
-    constructor(name, age) {
-      this.name = name;
-      this.age = age;
-    }
+// class Person {
+//     // Constructor method
+//     constructor(name, age) {
+//       this.name = name;
+//       this.age = age;
+//     }
   
-    // Instance method
-    greet() {
-      console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
-    }
-  }
+//     // Instance method
+//     greet() {
+//       console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+//     }
+//   }
   
-  // Create an instance of the class
-  let john = new Person('umair', 30);
-  john.greet(); 
+//   // Create an instance of the class
+//   let john = new Person('umair', 30);
+//   john.greet(); 
   
+// noted Local and global scope
+//Global Scope
+
+let myName = "Umair";
+function name(){
+  console.log(myName);
+}
+name();
+console.log(myName);
+
+//Local Scope
+
+
+function blockScope(){
+  let localScope = "local";
+  console.log(localScope);
+}
+blockScope();
+console.log(localScope);
